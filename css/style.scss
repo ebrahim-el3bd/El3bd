@@ -1,0 +1,823 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  $maincolor:#5AA6ED;
+  $mainbordercolor:transparent;
+body{
+  background-color: #f2f2f2;
+}
+.container{
+    border: 1px solid $mainbordercolor;
+    width: 100%;
+    height: 4300px;
+    .banner{
+        border: 1px solid $mainbordercolor;
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        background-image: url(../images/banner.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      .nav{
+        width: 500px;
+        height: 80px;
+        margin: 20px auto;
+        border: 1px solid $mainbordercolor;
+        text-align: center;
+        ul{
+          list-style: none;
+        }
+        li{
+          display: inline-block;
+        }
+        a{
+          text-decoration: none;
+          color: #fff;
+          display: inline-block;
+          border: 1px solid #fff;
+          width: 150px;
+          margin-top:18px;
+          padding: 10px 0;
+          font-weight: bold;
+        }
+        a:hover{
+          background-color: $maincolor;
+          border: 1px solid $maincolor;
+          font-weight: normal;
+        }
+        
+      }
+      .logo{
+        border: 1px solid #fff;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        background-image: url(../images/rooma.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        &:hover{
+          background-color: $maincolor;
+          border: 1px solid $maincolor;
+        }
+      }
+      button{
+        margin-top:40px ;
+        border: 1px solid $maincolor;
+        background-color: $maincolor;
+        padding: 20px 30px;
+        font-size: 18px;
+        color: #fff;
+        &:hover{
+          background-color: #4884bd;
+          border: 1px solid #4884bd;
+        }
+      }
+    }
+    .container1{
+      border: 1px solid $mainbordercolor;
+      margin: 100px auto;
+      width: 80vw;
+      height:800px;
+      background-color: #fff;
+      .image{
+        border: 1px solid $mainbordercolor;
+        height: auto;
+      }
+      .imgss{
+        height: auto;
+        width: 79.9vw;
+      }
+      .lorem{
+        border: 1px solid $mainbordercolor;
+        text-align: center;
+        margin: 10px;
+        h1{
+          padding: 20px 20px;
+          font-size: 25px;
+        }
+        h5{
+          padding: 10px 0;
+          color: #999;
+        }
+      }
+      .betwen{
+        width: 60%;
+        border-bottom:1px solid #999;
+        margin: auto;
+      }
+      .texter{
+        border: 1px solid transparent;
+        p{
+          color: #999;
+          padding: 20px 30px;
+        }
+      }
+    }
+    .image-fixed{
+      border: 1px solid #000;
+      height: 400px;
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/bg.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 100px 80px;
+      text-align: center;
+      
+      .div3inimage{
+        border-left:1px solid #999 ;
+        border-right:1px solid #999 ;
+        width: calc(100% / 3);
+        float: left;
+        padding:0 30px;
+        h3{
+          padding: 10px;
+          color:#fff;
+          font-weight: normal;
+        }
+        p{
+          color: #999;
+          line-height: 25px;
+        }
+        button{
+          margin: 30px 0;
+          background-color: $mainbordercolor;
+          color: #fff;
+          border: 1px solid #ccc;
+          padding: 20px 30px;
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          &:hover{
+            background-color: rgba(255, 255, 255, 0.13);
+          }
+        }
+      }
+    }
+    .container2{
+      height: 600px;
+      width: 79.9vw;
+      margin: 70px auto;
+      text-align: center;
+      .image1container2{
+        float: left;
+        width: 47.5%;
+        height: 100%;
+        background-color: #fff;
+        h2{
+          padding-top:80px ;
+          padding-bottom: 20px;
+        }
+        p{
+          padding-top: 5px;
+          padding-bottom: 5px;
+          color: #999;
+        }
+        .hr{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        .p{
+          padding: 50px 50px;
+          line-height: 19px;
+        }
+        .image1{
+          height: auto;
+          .forimage{
+            width: 100%;
+          }
+        }
+      }
+      .image2container2{
+        float: right;
+        width: 47.5%;
+        height: 100%;
+        background-color: #fff;
+        h2{
+          padding-top:80px ;
+          padding-bottom: 20px;
+        }
+        p{
+          padding-top: 5px;
+          padding-bottom: 5px;
+          color: #999;
+        }
+        .hr{
+          width: 50%;
+          margin-left: 25%;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          }
+          .p{
+            padding: 50px 50px;
+            line-height: 19px;
+          }
+        .image2{
+          height: auto;
+          .forimage{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .clear{
+      clear: both;
+    }
+    .Morbi{
+      border: 1px solid $mainbordercolor;
+      margin: 80px auto;
+      height: 350px;
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/bg.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      h2{
+        color: #fff;
+        padding: 50px 0;
+      }
+      p{
+        color: #999;
+        padding: 50px 40px;
+      }
+    }
+    .content{
+      h3{
+        padding-bottom: 15px;
+        color: #555;
+        font-size: 30px;
+        font-weight: normal;
+      }
+      hr{
+        margin: 30px 0;
+      }
+      border: 1px solid $mainbordercolor;
+      height: 900px;
+      width: 79.9vw;
+      margin: 70px auto;
+      text-align: center;
+      background-color: #fff ;
+      padding: 50px 40px;
+     
+      .name{
+        label[for="name"]{
+          display: block;
+          margin-right: 100%;
+          padding: 30px 0;
+          
+        }
+        input[type="text"]{
+          display: inline-block;
+          float: left;
+          height: 5vh;
+          width: 100%;
+          background-color: #f2f2f2;
+          border: 2px solid #ccc;
+          border-radius:8px ;
+          -webkit-border-radius:8px ;
+          -moz-border-radius:8px ;
+          -ms-border-radius:8px ;
+          -o-border-radius:8px ;
+          &:focus{
+            border: 2px solid  #5AA6ED;
+          }
+        }
+        border: 1px solid $mainbordercolor;
+        width: 47%;
+        float: left;
+        height: auto;
+        padding-bottom: 30px;
+      }
+      .email{
+        label[for="email"]{
+          display: block;
+          margin-right: 100%;
+          padding: 30px 0;
+        }
+        input[type="email"]{
+          display: inline-block;
+          float: left;
+          height: 5vh;
+          width: 100%;
+          background-color: #f2f2f2;
+          border: 2px solid #ccc;
+          border-radius:8px ;
+          -webkit-border-radius:8px ;
+          -moz-border-radius:8px ;
+          -ms-border-radius:8px ;
+          -o-border-radius:8px ;
+          &:focus{
+            border: 2px solid  #5AA6ED;
+          }
+        }
+        border: 1px solid $mainbordercolor;
+        width: 47%;
+        float: right;
+        height: auto;
+        padding-bottom: 30px;
+      }
+      .clear{
+        clear: both;
+      }
+      .Department{
+        border: 1px solid $mainbordercolor;
+        height: 160px;
+        margin-top: 35px;
+        label[for="dept"]{
+          float: left;
+          padding: 30px 0;
+          
+        }
+        select[id="dept"]{
+          display: block;
+          margin-top: 60px;
+          height: 5vh;
+          width: 100%;
+          background-color: #f2f2f2;
+          border: 2px solid #ccc;
+          border-radius:8px ;
+          -webkit-border-radius:8px ;
+          -moz-border-radius:8px ;
+          -ms-border-radius:8px ;
+          -o-border-radius:8px ;
+          &:focus{
+            border: 2px solid  #5AA6ED;
+          }
+        }
+      }
+      .aree{
+        border: 1px solid $mainbordercolor;
+        margin-top: 35px;
+        height: 260px;
+        label[for="Message"]{
+          float: left;
+          padding: 30px 0;
+        }
+        textarea[name="Message"]{
+          display: block;
+          margin-top: 60px;
+          height: 19vh;
+          width: 100%;
+          background-color: #f2f2f2;
+          border: 2px solid #ccc;
+          border-radius:8px ;
+          -webkit-border-radius:8px ;
+          -moz-border-radius:8px ;
+          -ms-border-radius:8px ;
+          -o-border-radius:8px ;
+          &:focus{
+            border: 2px solid  #5AA6ED;
+          }
+        }
+      }
+      input[value="Send Message"]{
+        background-color: #5AA6ED;
+        color: #ffffff;
+        padding: 15px 25px;
+        font-size: 18px;
+        border: 2px solid #5AA6ED;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+    }
+    .end{
+      border: 1px solid transparent;
+      height: 50px;
+      text-align: center;
+      background-color: #5AA6ED;
+      p{
+        margin-top: 20px;
+      }
+    }
+  }
+@media (min-width: 200px) and (max-width: 480px){
+  .container{
+    width: 100%;
+    height: auto;/*change height to auto*/
+  }
+  .container .banner{
+    height: 690px;
+  }
+  .container .banner .nav{
+    width: 180px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .container .banner .nav ul li a{
+    display: block;
+  }
+  .container .container1{
+    height: auto;
+  }
+  .container1 .lorem h5{
+  font-size: 4vw;
+  }
+  .container .image-fixed{
+    height: auto;
+    background-attachment: unset;
+    padding: 40px 40px;
+    text-align: center;
+  }
+  .container .image-fixed .div3inimage{
+    width: 100%;
+    float: none;
+    padding:0 10px;
+  }
+  .container .image-fixed .div3inimage button{
+  width: 100%;
+  }
+  .container .container2{
+    height: auto;
+  }
+  .container .container2 .image1container2{
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .container .container2 .image2container2{
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .container .Morbi{
+    height: auto;
+  }
+  .container .Morbi h2{
+    color: #fff;
+    padding: 25px 0;
+  }
+  .container .Morbi p{
+    color: #999;
+    padding: 30px 40px;
+  }
+  .container .content h3{
+    padding-top:30px ;
+  }
+  .container .content{
+    height: 950px;
+    padding: 0 20px;
+  }
+  .container .content .name{
+        width: 100%;
+        float: none;
+        height: 150px;
+        padding-bottom: 30px;
+  }
+  .container .content .name input[type="text"]{
+    height: 55px;
+}
+  .container .content .email{
+        width: 100%;
+        float: none;
+        height: 150px;
+        margin-top: 40px;
+  }
+  .container .content .email{
+    margin-top:0;
+  }
+  .container .content .email input[type="email"]{
+    height: 55px;
+}
+.container .content .Department{
+  margin-top:0;
+}
+.container .content .Department select[id="dept"]{
+  height: 55px;
+}
+.container .content .aree{
+  margin-top:0;
+}
+.container .content .aree textarea[name="Message"]{
+  height: 150px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius:8px ;
+}
+  .container .content input[value="Send Message"]{
+        padding: 10px 20px;
+        font-size: 11px;
+        width: 100%;
+  }
+  .container .end{
+    border: 1px solid transparent;
+    height: auto;
+    text-align: center;
+    background-color: #5AA6ED;
+  }
+ }
+
+
+@media (min-width: 481px) and (max-width: 768px){
+  .container{
+    border: 1px solid #000;
+    width: 100%;
+    height: auto;
+  }
+  .container .banner{
+    height: 690px;
+  }
+  .container .banner .nav{
+    width: 450px;
+    height: 80px;
+  }
+  .container .banner .nav ul li a{
+    width: 130px;
+  }
+  .container .container1{
+    height: auto;
+  }
+  .container .image-fixed{
+    height: auto;
+    background-attachment: unset;
+    padding: 40px 40px;
+    text-align: center;
+  }
+  .container .image-fixed .div3inimage{
+    width: 100%;
+    float: none;
+    padding:0 10px;
+  }
+  .container .container2{
+    height: auto;
+  }
+  .container .container2 .image1container2{
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .container .container2 .image2container2{
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .container .content h3{
+    padding-top:30px ;
+  }
+  
+  .container .content{
+    height: 950px;
+    padding: 50px 20px;
+  }
+  .container .content .name{
+        width: 100%;
+        float: none;
+        height: 150px;
+        padding-bottom: 30px;
+  }
+  .container .content .name input[type="text"]{
+    height: 55px;
+}
+  .container .content .email{
+        width: 100%;
+        float: none;
+        height: 150px;
+        margin-top: 40px;
+  }
+  .container .content .email{
+    margin-top:0;
+  }
+  .container .content .email input[type="email"]{
+    height: 55px;
+}
+.container .content .Department{
+  margin-top:0;
+}
+.container .content .Department select[id="dept"]{
+  height: 55px;
+}
+.container .content .aree{
+  margin-top:0;
+}
+.container .content .aree textarea[name="Message"]{
+  height: 150px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius:8px ;
+}
+  .container .content input[value="Send Message"]{
+        padding: 10px 20px;
+        font-size: 11px;
+        width: 50%;
+  }
+  .container .end{
+    border: 1px solid transparent;
+    height: 70px;
+    text-align: center;
+    background-color: #5AA6ED;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .container{
+    height: auto;
+  }
+  .container .image-fixed{
+    height: 450px;
+    padding: 50px 80px;
+  }
+  .container .image-fixed .div3inimage{
+    height: 350px !important;
+    float: left;
+    padding:10px 30px;
+  }
+  .container .image-fixed .div3inimage h3{
+    font-size: 18px;
+  }
+  .container .image-fixed .div3inimage p{
+    font-size: 12px;
+  }
+  .container .banner{
+    height: 690px;
+  }
+  .container .container2{
+    height: 650px;
+  }
+  .container .content{
+    height: 810px;
+    padding: 50px 20px;
+  }
+  .container .content h3{
+    padding-top:30px ;
+  }
+  .container .content .name input[type="text"]{
+    height: 55px;
+}
+  .container .content .email input[type="email"]{
+    height: 55px;
+}
+.container .content .Department{
+  margin-top:0;
+}
+.container .content .Department select[id="dept"]{
+  height: 55px;
+}
+.container .content .aree{
+  margin-top:0;
+}
+.container .content .aree textarea[name="Message"]{
+  height: 150px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius:8px ;
+  -webkit-border-radius:8px ;
+  -moz-border-radius:8px ;
+  -ms-border-radius:8px ;
+  -o-border-radius:8px ;
+}
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+  .container{
+    height: auto;
+  }
+  .container .image-fixed{
+    height: 450px;
+    padding: 50px 80px;
+  }
+  .container .banner{
+    height: 690px;
+  }
+  .container .image-fixed .div3inimage{
+    height: 350px !important;
+    float: left;
+    padding:10px 30px;
+  }
+  .container .image-fixed .div3inimage h3{
+    font-size: 18px;
+  }
+  .container .image-fixed .div3inimage p{
+    font-size: 12px;
+  }
+  .container .container2{
+    height: 650px;
+  }
+  .container .container2{
+    height: 650px;
+  }
+  .container .content{
+    height: 790px;
+    padding: 50px 20px;
+  }
+  .container .content h3{
+    padding-top:30px ;
+  }
+  .container .content .name input[type="text"]{
+    height: 55px;
+}
+  .container .content .email input[type="email"]{
+    height: 55px;
+}
+.container .content .Department{
+  margin-top:0;
+}
+.container .content .Department select[id="dept"]{
+  height: 55px;
+}
+.container .content .aree{
+  margin-top:0;
+}
+.container .content .aree textarea[name="Message"]{
+  height: 150px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius:8px ;
+  -webkit-border-radius:8px ;
+  -moz-border-radius:8px ;
+  -ms-border-radius:8px ;
+  -o-border-radius:8px ;
+}
+}
+@media screen and (min-width: 1201px){
+  .container{
+    height: auto;
+  }
+  .container .container1{
+    height:auto;
+  }
+    .container .container2{
+    height: auto;
+  }
+  .container .Morbi {
+    height: 450px;
+  }
+  .container .banner{
+    height: 690px;
+  }
+  .container .Morbi .texter p{
+    padding: 50px 0;
+  }
+  .container .container2{
+    height: 650px;
+  }
+  .container .content{
+    height: 780px;
+    padding: 50px 20px;
+  }
+  .container .content h3{
+    padding-top:30px ;
+  }
+  .container .container2 .image2container2{
+    height: auto;
+  }
+  .container .container2 .image1container2{
+    height: auto;
+  }
+  .container .content .name input[type="text"]{
+    height: 55px;
+}
+  .container .content .email input[type="email"]{
+    height: 55px;
+}
+.container .content .Department{
+  margin-top:0;
+}
+.container .content .Department select[id="dept"]{
+  height: 55px;
+}
+.container .content .aree{
+  margin-top:0;
+}
+.container .content .aree textarea[name="Message"]{
+  height: 150px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius:8px ;
+  -webkit-border-radius:8px ;
+  -moz-border-radius:8px ;
+  -ms-border-radius:8px ;
+  -o-border-radius:8px ;
+}
+
+}
